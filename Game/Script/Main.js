@@ -3,7 +3,7 @@ window.onerror = errorHandle
 window.oncontextmenu = rightClick
 
 function main() {
-    canvas = document.getElemenyById('Screen')
+    canvas = document.getElementById('Screen')
     context = canvas.getContext('2d')
 
     canvas.addEventListener('mouseup', mouseUp, false)
